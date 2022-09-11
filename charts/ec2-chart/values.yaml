@@ -1,0 +1,23 @@
+# Default values for ec2-charts.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+aws:
+  config: aws-provider
+ec2:
+  name: my-ec2
+  imageId: ami-05fa00d4c63e32376
+  region: us-east-1
+  instanceType: t2.micro
+  subnetId: subnet-08659f04fb9bf4ce6
+  
+vpc:
+  name: my-vpc
+  region: us-east-1
+  cidrBlock: 10.20.0.0/16
+  
+subnet:
+  name: my-subnet
+  region: us-east-1
+  availabilityZone: us-east-1a
+  cidrBlock: 10.0.0.0/24

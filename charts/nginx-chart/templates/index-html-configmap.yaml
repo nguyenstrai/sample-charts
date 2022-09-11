@@ -1,0 +1,53 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+    </head>
+    <body>
+
+    <h2>HTML Table</h2>
+
+    <table>
+      <tr>
+        <th>Application</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>Nginx</td>
+        <td><a href="http://192.168.56.10/">Visit</a></td>
+      </tr>
+      <tr>
+        <td>Theia</td>
+        <td><a href="http://192.168.56.11/">Visit</a></td>
+      </tr>
+      <tr>
+        <td>Argo CD</td>
+        <td><a href="http://192.168.56.12/">Visit</a></td>
+      </tr>
+      
+    </table>
+
+    </body>
+    </html>

@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  ec2-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-11T11:43:08.813038669-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 449a7149b86692506b66e9079ee327bbf4a31f4306478c3d3ac9a27e59ff0e4e
+    name: ec2-chart
+    type: application
+    urls:
+    - https://github.com/nguyenstrai/sample-charts/charts/ec2-chart-0.1.0.tgz
+    version: 0.1.0
+  nginx-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-11T11:43:08.813336435-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 0ff1ab0bfa4b0b70261585e05a6704960fc44b4f262ffb70296a0899921034fc
+    name: nginx-chart
+    type: application
+    urls:
+    - https://github.com/nguyenstrai/sample-charts/charts/nginx-chart-0.1.0.tgz
+    version: 0.1.0
+  theia-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-11T11:43:08.81357915-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 50725c133f67fb6c7e35987feda93800fef518b5e248cd167f8d22af804c21fc
+    name: theia-chart
+    type: application
+    urls:
+    - https://github.com/nguyenstrai/sample-charts/charts/theia-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-11T11:43:08.812471699-04:00"
